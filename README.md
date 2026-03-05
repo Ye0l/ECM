@@ -46,4 +46,4 @@ You can preview the production build with `npm run preview`.
 
 ### 2026-03-05
 - **.gitignore 보강**: SvelteKit 프로젝트에 적합하도록 포괄적인 `.gitignore` 파일 설정을 추가했습니다. (의존성, 빌드 결과물, IDE 설정, 환경 변수 등)
-
+- **복식부기 및 물리 엔진 가계부(V2)**: `d3-force` 모듈을 도입해 캔버스 내 노드 간 인력/척력을 구현하였습니다. `NodeEditor`로 다중 차/대변(n:n) 거래를 입력할 수 있으며, 툴바 검색창을 통해 동적인 중앙 앵커 필터 노드를 중심으로 관련 항목이 자동 결합되는 레이아웃을 구현했습니다.

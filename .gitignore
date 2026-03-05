@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# SvelteKit build output
+.svelte-kit/
+build/
+
+# HTTP Server
+.output/
+.vercel/
+.netlify/
+.wrangler/
+
+# System Files
+.DS_Store
+Thumbs.db
+*.log
+
+# Environment Variables
+.env
+.env.local
+.env.*
+!.env.example
+!.env.test
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vite artifacts
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Testing
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
